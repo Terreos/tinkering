@@ -1,3 +1,107 @@
 body {
     background-color: olivedrab;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+nav, main, footer {
+    background-color: rgba(75, 29, 101, 1);
+    display: block;
+    margin: 20px auto;
+    width: 1000px;
+    box-shadow: -10px 10px 10px 0px rgba(30, 2, 46, 1);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+nav {
+    height: 170px;
+    margin-top: 0px;
+    display: none;
+}
+main {
+    height: 800px;
+    overflow: auto;
+    display: none;
+}
+footer {
+    height: 50px;
+    display: none;
+}
+article {
+    display: inline-block;
+    background-color: rgba(54,87,155,1);
+    margin: 20px;
+}
+header {
+    
+}
+h1 {
+    font-size: 2em;
+    margin: 5px;
+}
+h2 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 1em;
+}
+nav p {
+    margin-left: 20px;
+}
+footer p {
+    margin: 15px;
+    display: inline-block;
+}
+ul{
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: -8px;
+}
+ul li a{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: olivedrab;
+    background-color: rgba(30, 2, 46, 1);
+    cursor: pointer;
+    border-color: #333333;
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+}
+ul li a:hover{
+    color: olivedrab;
+    background-color: #333333;
+}
+ul li ul.dropdown{
+    display: none;
+    margin-left: 0px;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    margin-top: 0px;
+    display: block; 
+}
+li input {
+    margin: 0px;
+}
+canvas {
+    display: block;
+    background-color: rgba(75, 29, 101, 1);
+    position: relative;
+    margin: auto;
 }
