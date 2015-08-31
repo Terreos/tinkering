@@ -7,8 +7,8 @@
 
 $(document).ready(main);
 function main() {
-var mainColors = array('rgba(75, 29, 101, 1)','rgba(107,142,35,1)','rgba(139,0,0,1)','rgb(0,0,0,1)');
-var complementaryColors = array('rgba(30, 2, 46, 1)','rgba(51,51,51,1)');
+//var mainColors = array('rgba(75, 29, 101, 1)','rgba(107,142,35,1)','rgba(139,0,0,1)','rgb(0,0,0,1)');
+//var complementaryColors = array('rgba(30, 2, 46, 1)','rgba(51,51,51,1)');
 
 };
 
