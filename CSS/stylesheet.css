@@ -1,5 +1,5 @@
 body {
-    background-color: olivedrab;
+    background-color: rgba(107,142,35,1);
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 nav, main, footer {
@@ -53,6 +53,16 @@ footer p {
     margin: 15px;
     display: inline-block;
 }
+a {
+    text-decoration: none;
+    color: rgba(107,142,35,1);
+    display: inline-block;
+    background-color: transparent;
+    padding: 2px;
+}
+a:hover, a:active {
+    background-color: rgba(30, 2, 46, 1);
+}
 ul{
     padding: 0px;
     margin-left: 20px;
@@ -70,7 +80,7 @@ ul li a{
     text-align: center;
     font-size: 1.5em;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    color: olivedrab;
+    color: rgba(107,142,35,1);
     background-color: rgba(30, 2, 46, 1);
     cursor: pointer;
     border-color: #333333;
@@ -80,9 +90,10 @@ ul li a{
     display: block;
     text-decoration: none;
     line-height: 40px;
+    padding: 0px;
 }
 ul li a:hover{
-    color: olivedrab;
+    color: rgba(107,142,35,1);
     background-color: #333333;
 }
 ul li ul.dropdown{
