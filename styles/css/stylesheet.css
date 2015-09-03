@@ -3,7 +3,6 @@ body, html {
     padding: 0;
     height: 100%;
 }
-
 #topNav {
     display: block;
     background-color: azure;
@@ -16,7 +15,6 @@ body, html {
     height: 40px; 
     box-shadow: -10px 10px 10px 0px black;
 }
-
 .changing {
     position: relative;
     overflow: hidden;
