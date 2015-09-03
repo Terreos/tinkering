@@ -1,7 +1,7 @@
 {
     "title": "Hello world!",
     "content": [
-        "There are some changes on the page, but in my opinion content and navigation trough is very self-explanatory.",
+        "There are some changes on the page, but in my opinion content, and navigation trough it is very self-explanatory.",
         "But if you are wondering, here is the list of content:",
         "- Layout 1 = kinda pure html5 + CSS for now. If you don't like the colours - well... i like them :].",
         "- Layout 2 = it's generally all bootstrap - I will probably add some functionality in the future.",
