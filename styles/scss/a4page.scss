@@ -7,20 +7,17 @@ $max-height: 2339px;
 $min-width: 595px;
 $min-height: 842px;
 
+$margin-vertical: 2em;
+$margin-horizontal: 1.5em;
+
 
 .wrapper {
     position: fixed;
     width: $max-width;
     left: -$min-width/2;
     margin-left: 50%;
-    margin-top: 100px;
+    margin-top: 50px;
     display: inline-block;    
-}
-
-@media screen and (width: 100%) {
-    .wrapper{
-        width: 100%;
-    }
 }
 
 .a4{
@@ -28,7 +25,7 @@ $min-height: 842px;
     background-color: white;
     height: $min-height;
     width: $min-width;
-    padding: 1.5em;
+    padding: $margin-vertical $margin-horizontal;
     margin: auto;
     box-shadow: 10px 10px 15px 5px #888888;
 }

@@ -4,7 +4,6 @@
 //"<li><a href='customers.html'>Data</a></li>" +
 //"<li><a href='about.html'>About</a></li>" +
 //"</ul>"; 
-
 $(window).ready(main);
 function main() {
     topNav.set(0);   
