@@ -1,0 +1,21 @@
+.wrapper {
+    margin: auto;
+    width: 71.71%;
+    height: 129.29%;
+    display: inline-block;
+    position: relative;
+}
+.wrapper:after {
+    padding-right: 29.29%;
+    display: block;
+    content: '';
+    }
+.a4{
+    display: block;
+    max-height: 2339px;
+    max-width: 1654px;
+    min-height: 842px;
+    min-width: 595px;
+    //margin: auto;
+    box-shadow: 10px 10px 15px 5px #888888;
+}

@@ -1,0 +1,172 @@
+body {
+    background-color: rgba(107,142,35,1);
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+nav, main, footer {
+    background-color: rgba(75, 29, 101, 1);
+    display: block;
+    margin: 15px auto;
+    width: 1000px;
+    box-shadow: -10px 10px 10px 0px rgba(30, 2, 46, 1);
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+nav {
+    height: 170px;
+    margin-top: 0px;
+    display: none;
+}
+main {
+    height: 800px;
+    overflow: auto;
+    display: none;
+}
+footer {
+    height: 50px;
+    display: none;
+}
+article {
+    display: inline-block;
+    background: transparent;
+    margin: 20px;
+    padding: 10px;
+}
+header {
+    
+}
+h1 {
+    font-size: 2em;
+    margin: 5px;
+}
+h2 {
+    font-size: 1.5em;
+}
+p {
+    font-size: 1em;
+}
+nav p {
+    margin-left: 20px;
+}
+footer p {
+    margin: 15px;
+    display: inline-block;
+}
+a {
+    text-decoration: none;
+    color: rgba(107,142,35,1);
+    display: inline-block;
+    background-color: transparent;
+    padding: 2px;
+}
+a:hover, a:active {
+    background-color: rgba(30, 2, 46, 1);
+}
+ul{
+    padding: 0px;
+    margin-left: 20px;
+    margin-top: 0px;
+    list-style: none;
+    display: inline-block;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: -8px;
+}
+ul li a{
+    text-align: center;
+    font-size: 1.5em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: rgba(107,142,35,1);
+    background-color: rgba(30, 2, 46, 1);
+    cursor: pointer;
+    border-color: #333333;
+    border-width: 1px;
+    border-style: solid;
+    width: 200px;
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0px;
+}
+ul li a:hover{
+    color: rgba(107,142,35,1);
+    background-color: #333333;
+}
+ul li ul.dropdown{
+    display: none;
+    margin-left: 0px;
+    position: absolute;
+    z-index: 999;
+    left: 0;
+}
+ul li:hover ul.dropdown{
+    display: block;	/* Display the dropdown */
+}
+ul li ul.dropdown li{
+    margin-top: 0px;
+    display: block; 
+}
+p input {
+    margin: 0px 1px;
+}
+canvas {
+    display: block;
+    background-color: rgba(75, 29, 101, 1);
+    position: relative;
+    margin: auto;
+}
+#colors {
+    display: inline;
+    position: absolute;
+    width: 120px;
+    height: 12px;
+    top: 55px;
+    right: -4px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    padding: 0px;
+}
+nav div {
+    width: 15px;
+    height: 10px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-color: black;
+}
+#first {
+    left: 2px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6b8e23+0,6b8e23+50,4b1d65+50,4b1d65+100 */
+    background: rgb(107,142,35); /* Old browsers */
+    background: -moz-linear-gradient(left,  rgba(107,142,35,1) 0%, rgba(107,142,35,1) 50%, rgba(75,29,101,1) 50%, rgba(75,29,101,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(107,142,35,1)), color-stop(50%,rgba(107,142,35,1)), color-stop(50%,rgba(75,29,101,1)), color-stop(100%,rgba(75,29,101,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left,  rgba(107,142,35,1) 0%,rgba(107,142,35,1) 50%,rgba(75,29,101,1) 50%,rgba(75,29,101,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left,  rgba(107,142,35,1) 0%,rgba(107,142,35,1) 50%,rgba(75,29,101,1) 50%,rgba(75,29,101,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left,  rgba(107,142,35,1) 0%,rgba(107,142,35,1) 50%,rgba(75,29,101,1) 50%,rgba(75,29,101,1) 100%); /* IE10+ */
+    background: linear-gradient(to right,  rgba(107,142,35,1) 0%,rgba(107,142,35,1) 50%,rgba(75,29,101,1) 50%,rgba(75,29,101,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6b8e23', endColorstr='#4b1d65',GradientType=1 ); /* IE6-9 */
+
+}
+#second {
+    left: 22px;
+}
+#third {
+    left: 42px;
+}
+#fourth {
+    left: 62px;
+}
+#fifth {
+    left: 82px;
+}
+#sixth {
+    left: 102px;
+}
