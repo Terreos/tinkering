@@ -7,9 +7,11 @@
         <link type="text/css" rel="stylesheet" href="CSS/bootstrap.min.css"/>
         <link type="text/css" rel="stylesheet" href="CSS/application.css"/>		
         <script type="text/javascript" src="JS/jquery-2.1.4.min.js"></script>
+        <script type="text/javascript" src="JS/bootstrap.min.js"></script>
         <script type="text/javascript" src="JS/angular.min.js"></script>
         <script type="text/javascript" src="JS/app.js"></script>
         <script type="text/javascript" src="product/products.js"></script>
+        <script src="../js/hello.js"></script>
     </head>
     <body ng-controller="StoreController as store">
 		<div class="container">
@@ -20,6 +22,14 @@
                                 </header>
 			</nav>
 			<main class="well">
+                            <div class="row">
+                                <div class="col-md-8 col-md-offset-2">
+                                    <div class="alert alert-info">
+                                        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                        <article id="hello"></article>
+                                    </div>
+                                </div>
+                            </div>
                             <div class="row">
                                 <div class="product col-md-4 col-md-offset-4">
                                     <div class="list-group">
