@@ -1,0 +1,34 @@
+body {
+    background-color: lightsteelblue;
+}
+
+$max-width: 1654px;
+$max-height: 2339px;
+$min-width: 595px;
+$min-height: 842px;
+
+
+.wrapper {
+    position: fixed;
+    width: $max-width;
+    left: -$min-width/2;
+    margin-left: 50%;
+    margin-top: 100px;
+    display: inline-block;    
+}
+
+@media screen and (width: 100%) {
+    .wrapper{
+        width: 100%;
+    }
+}
+
+.a4{
+    display: inline-block;
+    background-color: white;
+    height: $min-height;
+    width: $min-width;
+    padding: 1.5em;
+    margin: auto;
+    box-shadow: 10px 10px 15px 5px #888888;
+}
