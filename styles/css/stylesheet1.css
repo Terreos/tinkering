@@ -11,20 +11,18 @@ nav, main, footer {
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    display: none;
 }
 nav {
     height: 170px;
     margin-top: 0px;
-    display: none;
 }
 main {
     height: 800px;
     overflow: auto;
-    display: none;
 }
 footer {
     height: 50px;
-    display: none;
 }
 article {
     display: inline-block;
